@@ -9,16 +9,45 @@
 .links {
     display: flex;
     gap: 15px;
-    margin-top: 0px;
-    
+    margin-top: 0px;  
 }
 
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
 
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FaF8;
+}
 
+.left {
+    max-width: 400px;
 
+}
+button {
+    padding: 8px 16px;
+    background-color: #3382f6;
+    color: #F9FaF8;
+    border-radius: 8px;
+    border: 1px solid #3382f6;
+    cursor: grab;
+    margin-top: 8px;
 
+}
 
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 
+}
 
 
 
