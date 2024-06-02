@@ -3,7 +3,7 @@
     justify-content: space-around;
     color: #F9FaF8;
     background-color: #1F2937;
-    margin: 0px;
+    
 }
 
 .links {
@@ -14,20 +14,23 @@
 
 .title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-.section-2{
+.section-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #F9FaF8;
+    padding: 100px;
 }
 
-.left {
-    max-width: 400px;
+.left,
+.right {
+    width: 400px;
 
 }
+
 button {
     padding: 8px 16px;
     background-color: #3382f6;
@@ -48,8 +51,18 @@ button {
     margin-top: 30px;
 
 }
-
-
+.section-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.box {
+    border-radius: 8px;
+    border: 2px solid #3382f6;
+    width: 100px;
+    height: 100px;
+}
 
 
 
